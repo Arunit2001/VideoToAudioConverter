@@ -1,0 +1,18 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "It will convert an mp4 video to an mp3 audio.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Arunit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
